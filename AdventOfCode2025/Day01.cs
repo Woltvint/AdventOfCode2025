@@ -6,16 +6,11 @@ using System.Threading.Tasks;
 
 namespace AdventOfCode2025
 {
-    internal class Day01
+    internal class Day01 : IDay
     {
         public static void Solve1()
         {
-            Console.WriteLine();
-            Console.WriteLine(@"/----------------------------------\");
-            Console.WriteLine(@"|         Day 01 (part 1)          |");
-            Console.WriteLine(@"\----------------------------------/");
-            Console.WriteLine();
-
+            Shared.WriteHeader("Day 01 (part 1)");
 
             string[] data1 = File.ReadAllLines("Data/Day01_1.txt");
 
@@ -42,12 +37,7 @@ namespace AdventOfCode2025
 
         public static void Solve2()
         {
-            Console.WriteLine();
-            Console.WriteLine(@"/----------------------------------\");
-            Console.WriteLine(@"|         Day 01 (part 2)          |");
-            Console.WriteLine(@"\----------------------------------/");
-            Console.WriteLine();
-
+            Shared.WriteHeader("Day 01 (part 2)");
 
             string[] data1 = File.ReadAllLines("Data/Day01_1.txt");
 
@@ -73,7 +63,6 @@ namespace AdventOfCode2025
             }
 
             Console.WriteLine($"Password: {zeroCount}");
-
         }
     }
 }

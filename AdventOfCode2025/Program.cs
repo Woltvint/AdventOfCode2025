@@ -8,6 +8,9 @@
 
             Day01.Solve1();
             Day01.Solve2();
+
+            Day02.Solve1();
+            Day02.Solve2();
         }
     }
 }
