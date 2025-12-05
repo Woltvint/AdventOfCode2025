@@ -31,7 +31,7 @@ namespace AdventOfCode2025
                     zeroCount++;
             }
 
-            Console.WriteLine($"Password: {zeroCount}");
+            Console.WriteLine($"Result: {zeroCount}");
 
         }
 
@@ -62,7 +62,7 @@ namespace AdventOfCode2025
                 }
             }
 
-            Console.WriteLine($"Password: {zeroCount}");
+            Console.WriteLine($"Result: {zeroCount}");
         }
     }
 }

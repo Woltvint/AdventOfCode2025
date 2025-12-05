@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -26,6 +27,14 @@ namespace AdventOfCode2025
             Console.WriteLine(@"|");
             Console.WriteLine(@"\----------------------------------/");
             Console.WriteLine();
+        }
+
+        public static void Time(Action a)
+        {
+            Stopwatch sw = Stopwatch.StartNew();
+            a.Invoke();
+            sw.Stop();
+            Console.WriteLine($"Took: {sw.ElapsedMilliseconds}ms");
         }
     }
 }
