@@ -15,8 +15,11 @@
             //Day03.Solve1();
             //Day03.Solve2();
 
-            Day04.Solve1();
-            Day04.Solve2();
+            //Day04.Solve1();
+            //Day04.Solve2();
+
+            Day05.Solve1();
+            Day05.Solve2();
         }
     }
 }
