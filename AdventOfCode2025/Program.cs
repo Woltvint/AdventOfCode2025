@@ -20,6 +20,9 @@
 
             Shared.Time(Day05.Solve1);
             Shared.Time(Day05.Solve2);
+
+            Shared.Time(Day06.Solve1);
+            Shared.Time(Day06.Solve2);
         }
     }
 }
