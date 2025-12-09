@@ -5,7 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Advent of Code 2025!");
-            
+
             Shared.Time(Day01.Solve1);
             Shared.Time(Day01.Solve2);
 
@@ -26,7 +26,9 @@
 
             Shared.Time(Day07.Solve1);
             Shared.Time(Day07.Solve2);
-
+            
+            Shared.Time(Day08.Solve1);
+            Shared.Time(Day08.Solve2);
         }
     }
 }
