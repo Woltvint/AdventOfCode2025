@@ -6,7 +6,7 @@
         {
             Console.WriteLine("Advent of Code 2025!");
 
-            Shared.Time(Day01.Solve1);
+            /*Shared.Time(Day01.Solve1);
             Shared.Time(Day01.Solve2);
 
             Shared.Time(Day02.Solve1);
@@ -28,7 +28,10 @@
             Shared.Time(Day07.Solve2);
             
             Shared.Time(Day08.Solve1);
-            Shared.Time(Day08.Solve2);
+            Shared.Time(Day08.Solve2);*/
+
+            Shared.Time(Day09.Solve1);
+            Shared.Time(Day09.Solve2);
         }
     }
 }
